@@ -21,6 +21,7 @@ public class Plate {
          if (food>=0)
         return true;
         else
+            // если значение неправда будет выдавать ошибку
             throw new InputMismatchException("В тарелке не может быть отрицательное значение ");
 
     }

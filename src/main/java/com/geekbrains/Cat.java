@@ -4,13 +4,15 @@ public class Cat {
     private String name;
     private int appetit;
     private boolean satiety;
+    // Создалди конструктор
 
     public Cat (String name, int appetit){
         this.name = name;
         this.appetit = appetit;
         this.satiety = false;
     }
-
+// Прередали в красс тарелка переменную аппетитт кота ,
+    // чтобы отнять от количество еди оппетит
     public void eat (Plate p){
          {
 
@@ -19,6 +21,7 @@ public class Cat {
         }
 
     }
+    // Вывели в консоль
     public void info(){
         if (satiety)
             System.out.println(name + " наелся ");
